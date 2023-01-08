@@ -1,28 +1,28 @@
-# Make Windows 10 Great Again
-Tweaks to make Windows 10 less annoying and more usable.
+# Windows 10-u yenidən möhtəşəm edin
+Windows 10-u daha az zəhlətökən və istifadəyə yararlı etmək üçün düzəlişlər.
 
-Here's what this script does:
+Bu skript nə edir:
 
-1. Disables Cortana
-2. Disables Notification Center
-3. Disables automatic reboots after Windows Updates have been installed
-4. Disables Microsoft.com accounts from Windows Login
-5. Shows file extensions for known file types
-6. Sets Explorer to open to "This PC"
-7. Shows hidden files (not including OS files)
-8. Uninstalls OneDrive
-9. Shows "This PC" icon on Desktop
-10. Enables developer mode (required for Linux Subsystem)
-11. Installs the Linux Subsystem
-12. Updates the Powershell Get-Help items
-13. Disables SMBv1
-14. Unpin all Start Menu items
-15. Disables WPAD 
+1. Cortana-nı söndürür
+2. Bildiriş Mərkəzini deaktiv edir
+3. Windows Yeniləmələri quraşdırıldıqdan sonra avtomatik yenidən yükləmələri söndürür
+4. Windows Girişindən Microsoft.com hesablarını deaktiv edir
+5. Məlum fayl növləri üçün fayl uzantılarını göstərir
+6. Explorer-i "Bu kompüter"ə açmaq üçün təyin edir
+7. Gizli faylları göstərir (OS faylları daxil deyil)
+8. OneDrive-ı silir
+9. Masaüstündə "This PC" işarəsini göstərir
+10. Tərtibatçı rejimini aktivləşdirir (Linux Alt Sistemi üçün tələb olunur)
+11. Linux alt sistemini quraşdırır
+12. Powershell Get-Help elementlərini yeniləyir
+13. SMBv1-i deaktiv edir
+14. Başlat Menyusunun bütün elementlərini çıxarır
+15. WPAD-i söndürür
 
-## Installation
-Unfortunately you'll have to set your execution policy to unrestricted to use this script.
+## Quraşdırma
+Təəssüf ki, bu skriptdən istifadə etmək üçün "execution policy"-ni məhdudiyyətsiz olaraq təyin etməli olacaqsınız.
 
-From an Administrator Powershell prompt:
+Administrator Powershell sorğusundan:
 ```
 Set-ExecutionPolicy Unrestricted
 cd MakeWindows10GreatAgain
@@ -30,7 +30,6 @@ cd MakeWindows10GreatAgain
 Set-ExecutionPolicy Restricted
 ```
 
-## Notes
-I considered adding some tweaks to remove the default apps/tiles that come installed with the Win10 start menu, but I've been pleasantly surprised by [Classic Shell](http://classicshell.net/). It's an excellent start menu replacement for Win10. I recommend just installing that.
+## Qeydlər
 
-This script doesn't address any of the privacy issues of Windows 10 because there are already a [bunch of tools](http://www.ghacks.net/2015/08/14/comparison-of-windows-10-privacy-tools/) that already do that.
+Bu skript Windows 10-un məxfilik problemlərindən heç birini həll etmir, çünki artıq bunu edən bir çox [tool'lar](http://www.ghacks.net/2015/08/14/comparison-of-windows-10-privacy-tools/) var.
